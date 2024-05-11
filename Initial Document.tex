@@ -1,0 +1,59 @@
+\documentclass{article}
+
+\title{Hyperlinks in Latex}
+\author{sachin rawat}
+\date{May 2024}
+          
+\begin{document}
+
+\maketitle    
+
+% Introduction section with a label for reference}
+\section{Introduction}
+\label{sec:intro}
+Welcome to this guide on using hyperlinks in LaTex. This document will cover various topics related to hyperlinking, including setting up options and referencing different elements.
+
+\section{Setup Section}
+\label{sec:setup}
+Setting up a document with hyperref is straightforward. You can import `hyperref` with default settings or define custom options.
+
+% Section referencing
+\section{Hyperlink Options}
+\label{sec:options}
+Hyperref can be customized to suit your needs. Options such as `colorlinks`, `linkcolor` and `urlcolor` allow you to change the appearance of links.\\
+
+In LaTex, you can hide or remove link formatting while preserving the functionality of the links. This can be useful if you want to maintain a consistent look in your document without visible link borders or color changes.
+
+% Referencing a section 
+\section{Referencing a Section}
+\label{sec:section}
+Referencing a section in LaTex means creating a link or cross-reference to another part of the document, specifically to a section with a defined heading (such as Introduction, Methods, Results, etc.). This allows you to refer to different parts of your document without repeating the information.
+
+% Referencing an equation 
+\section{Referencing an Equation}
+\label{sec:equation}
+This is the famous Einstein equation 
+
+% Referencing a page 
+\section{Referencing an Page}
+\label{sec:page}
+% Linking to a specific page
+This document is generated with LaTex, a high-quality typesetting system. Hyperref allows you to navigate through various sections with ease. The previous information was found on page
+
+% Link to an external web address
+\section{External Links}
+To find more information on LaTex, visit the LaTex Project website
+
+% Cross linking sentences
+\section{Cross-link Sentences}
+You can also cross-link any sentences within your document.
+
+
+\section{Einstein Equation}
+\begin{equation}
+E = mc^2
+\label{eq:einstein}
+\end{equation}
+
+
+\end{document}
